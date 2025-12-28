@@ -1,0 +1,6 @@
+name = "aterbot"
+main = "src/worker.ts"
+compatibility_date = "2024-12-01"
+
+[triggers]
+crons = ["*/1 * * * *"] # aja 5 min välein, saatana
